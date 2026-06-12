@@ -1,0 +1,20 @@
+⚽ MUNDIAL 2026|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/world-cup-2026.json
+🎬 CINE Y SERIES|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/cine.json
+📺 TVLIBRE COMPLETA|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/canales-script/TVLIBRE-2.json
+⚽ DEPORTES|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/deportes.json
+📰 NOTICIAS|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/noticias.json
+🌐 NOTICIAS INTERNACIONALES|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/noticias-inter.json
+🏙️ BUENOS AIRES|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/buenos-aires.json
+🌍 CANALES INTERNACIONALES|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/canal-inter.json
+🎭 CULTURA|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/cultura.json
+👶 INFANTIL|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/infantil.json
+🎵 MÚSICA|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/musica.json
+😂 COMEDIA|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/comedia.json
+📺 NOVELAS|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/novelas.json
+🌟 REALITY|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/reality.json
+🗺️ PROVINCIAS|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/provincia.json
+🎌 ANIMACIÓN|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/animacion.json
+🔞 ADULTOS|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/categorias/adultos.json
+🎬 PELÍCULAS HD|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/peliculas/Peliculas_HD.json
+🎥 CINE 2026|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/peliculas/Cine_2026.json
+📺 PLUTO TV|https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/canales-script/Pluto-TV.json

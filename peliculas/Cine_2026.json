@@ -1,0 +1,100 @@
+
+[  
+    {
+        "nombre":  "Mortal Kombat",
+        "grupo":  "🐱‍👤 Accion",
+        "icono":  "🐱‍👤",
+        "logo":  "https://image.tmdb.org/t/p/w200/4KmsPcIAKmjcNQHAqR9svK92g71.jpg",
+        "url":  "https://minochinos.com/v/qzymll2hq1zk?auto=1",
+        "activo":  true
+    },
+    {
+        "nombre":  "Michael",
+        "grupo":  "😭 Drama",
+        "icono":  "😭",
+        "logo":  "https://cliver.mom/uploads/mini/poster/cf/612838acde0da002478dfd54a36a82.jpg",
+        "url":  "https://gscdn.cam/video/embed/3v5hrn2yxm3z",
+        "activo":  true
+    },
+    {
+        "nombre":  "Super Mario Galaxy",
+        "grupo":  "🎈 Animacion",
+        "icono":  "🎈",
+        "logo":  "https://cliver.mom/uploads/mini/poster/e0/f20fc7adce2489e621f512183690b5.jpg",
+        "url":  "https://gscdn.cam/video/embed/qb8u9vh74xed",
+        "activo":  true
+    },
+    {
+        "nombre":  "Peaky Blinders: El hombre inmortal",
+        "grupo":  "😭 Drama",
+        "icono":  "😭",
+        "logo":  "https://cliver.mom/uploads/mini/poster/4d/d6608e2e489b5c9e38346a13debb39.jpg",
+        "url":  "https://gscdn.cam/video/embed/zdy0y6ylu3i8",
+        "activo":  true
+    },
+    {
+        "nombre":  "Scream 7",
+        "grupo":  "👻 Terror",
+        "icono":  "👻",
+        "logo":  "https://cliver.mom/uploads/mini/poster/62/351a852f1be71b6fbfb13e0b8d4f47.jpg",
+        "url":  "https://gscdn.cam/video/embed/stk2pzag691l",
+        "activo":  true
+    },
+    {
+        "nombre":  "The Strangers: Chapter 3",
+        "grupo":  "👻 Terror",
+        "icono":  "👻",
+        "logo":  "https://cliver.mom/uploads/mini/poster/b3/0c926c96dac5d61cd1cff8da1e9979.jpg",
+        "url":  "https://gscdn.cam/video/embed/e6iphp61qbb2",
+        "activo":  true
+    },
+    {
+        "nombre":  "Exterminio: El templo de huesos",
+        "grupo":  "👻 Terror",
+        "icono":  "👻",
+        "logo":  "https://cliver.mom/uploads/mini/poster/34/a09162f709bd0e0b5c8a4af7f554c7.jpg",
+        "url":  "https://gscdn.cam/video/embed/76z0ircuorld",
+        "activo":  true
+    },
+    {
+        "nombre":  "Terror en Silent Hill: Regreso al infierno",
+        "grupo":  "👻 Terror",
+        "icono":  "👻",
+        "logo":  "https://cliver.mom/uploads/mini/poster/23/2b53bf40b3da7bbe784895c949a781.jpg",
+        "url":  "https://gscdn.cam/video/embed/nhbi407xejpp",
+        "activo":  true
+    },
+    {
+        "nombre":  "Depredador: Tierras salvajes",
+        "grupo":  "🤖 Ciencia Ficcion",
+        "icono":  "🤖",
+        "logo":  "https://cliver.mom/uploads/mini/poster/bf/4842b3fc88fb3c0733863d7292e407.jpg",
+        "url":  "https://gscdn.cam/video/embed/fux2oatvivpg",
+        "activo":  true
+    },
+    {
+        "nombre":  "Zootopia 2",
+        "grupo":  "🎈 Animacion",
+        "icono":  "🎈",
+        "logo":  "https://cliver.mom/uploads/mini/poster/0d/2f6e5bef162aac73b320110c39b53c.jpg",
+        "url":  "https://gscdn.cam/video/embed/8783w5eos8os",
+        "activo":  true
+    },
+    {
+        "nombre":  "Busboys",
+        "grupo":  "🤡 Comedia",
+        "icono":  "🤡",
+        "logo":  "https://cliver.mom/uploads/mini/poster/57/17d02b53ae07bf17fd1d5d8b25ca4d.jpg",
+        "url":  "https://gscdn.cam/video/embed/q38hkximnvl3",
+        "activo":  true
+    },
+    {
+        "nombre":  "Instinto Implacable",
+        "grupo":  "🐱‍👤 Accion",
+        "icono":  "🐱‍👤",
+        "logo":  "https://cliver.mom/uploads/mini/poster/8f/8b1ac3596acbb6708718a57911571e.jpg",
+        "url":  "https://gscdn.cam/video/embed/gv3fpwym3lrm",
+        "activo":  true
+    }
+    
+]

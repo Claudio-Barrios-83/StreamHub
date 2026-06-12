@@ -1,0 +1,50 @@
+name: generar-m3u
+
+on:
+  push:
+    paths:
+      - "categorias/*.json"
+      - "canales-script/*.json"
+  workflow_dispatch:
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar lista M3U completa
+        run: |
+          python3 - << 'PYEOF'
+          import json
+          from pathlib import Path
+
+          lines = ["#EXTM3U"]
+
+          for f in sorted(Path("categorias").glob("*.json")):
+              with open(f) as fh:
+                  canales = json.load(fh)
+              for c in canales:
+                  if not c.get("activo"):
+                      continue
+                  nombre = c.get("nombre", "Sin nombre")
+                  grupo  = c.get("grupo", "General")
+                  logo   = c.get("logo", "")
+                  url    = c.get("url", "")
+                  if not url:
+                      continue
+                  lines.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{grupo}",{nombre}')
+                  lines.append(url)
+
+          with open("streamhub-completa.m3u", "w") as out:
+              out.write("\n".join(lines))
+          print(f"✅ {len([l for l in lines if l.startswith('#EXTINF')])} canales exportados")
+          PYEOF
+
+      - name: Commit M3U
+        run: |
+          git config --global user.name "streamhub-bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add streamhub-completa.m3u
+          git diff --staged --quiet || git commit -m "🤖 M3U actualizada"
+          git push

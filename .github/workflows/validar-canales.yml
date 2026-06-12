@@ -1,0 +1,62 @@
+name: validar-canales
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Validar canales
+        run: |
+          python3 - << 'PYEOF'
+          import json, os, requests
+          from pathlib import Path
+
+          TIMEOUT = 8
+          changed = False
+
+          for f in Path("categorias").glob("*.json"):
+              with open(f) as fh:
+                  data = json.load(fh)
+              updated = False
+              for canal in data:
+                  url = canal.get("url", "")
+                  if not url or not url.startswith("http"):
+                      continue
+                  try:
+                      r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+                      activo = r.status_code < 400
+                  except:
+                      activo = False
+                  if canal.get("activo") != activo:
+                      canal["activo"] = activo
+                      updated = True
+                      changed = True
+                      print(f"{'✅' if activo else '❌'} {canal.get('nombre','')} → {activo}")
+              if updated:
+                  with open(f, "w") as fh:
+                      json.dump(data, fh, ensure_ascii=False, indent=2)
+
+          print("Sin cambios" if not changed else "Cambios guardados")
+          PYEOF
+
+      - name: Commit cambios
+        run: |
+          git config --global user.name "streamhub-bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add categorias/*.json
+          git diff --staged --quiet || git commit -m "🤖 Validación automática de canales"
+          git push

@@ -1,0 +1,31 @@
+name: actualizar-pluto
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Actualizar Pluto TV
+        run: python3 pluto_provider.py
+
+      - name: Commit cambios
+        run: |
+          git config --global user.name "streamhub-bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add canales-script/Pluto-TV.json pluto_*.m3u 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "🤖 Actualización Pluto TV"
+          git push

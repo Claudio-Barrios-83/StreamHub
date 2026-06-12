@@ -1,0 +1,195 @@
+[
+
+    {
+    "nombre": "Telefe",
+    "grupo": "🏙️ Buenos Aires",
+    "icono": "🏙️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/CHtelefe.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=3_",
+    "activo": true
+  },
+    {
+    "nombre": "El Trece",
+    "grupo": "🏙️ Buenos Aires",
+    "icono": "🏙️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/CHeltrece.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=4_",
+    "activo": true
+  },
+    {
+    "nombre": "Food Network",
+    "grupo": "🚜 Cultura",
+    "icono": "🚜",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/cultura/CHfoodnetwork.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=29_",
+    "activo": true
+  },
+    {
+    "nombre": "HGTV",
+    "grupo": "🚜 Cultura",
+    "icono": "🚜",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/cultura/CHhgtv.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=16_",
+    "activo": true
+  },
+    {
+    "nombre": "Golden Premiere 2",
+    "grupo": "🎬 Cine",
+    "icono": "🎬",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/cine/CHgoldenpremiere2.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=22_",
+    "activo": true
+  },
+    {
+    "nombre": "Pasiones",
+    "grupo": "❤️ Novelas",
+    "icono": "❤️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/novelas/CHpasiones.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=10_",
+    "activo": true
+  },
+    {
+    "nombre": "TL Novelas",
+    "grupo": "❤️ Novelas",
+    "icono": "❤️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/novelas/CHtllnovelas.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=12_",
+    "activo": true
+  },
+    {
+    "nombre": "TNT Novelas",
+    "grupo": "❤️ Novelas",
+    "icono": "❤️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/novelas/CHtntnovelas.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=4_",
+    "activo": true
+  },
+    {
+    "nombre": "Disney Channel",
+    "grupo": "🎈 Infantil",
+    "icono": "🎈",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/infantil/CHdisneychannel.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=28_",
+    "activo": true
+  },
+    {
+    "nombre": "DW 🇩🇪",
+    "grupo": "🎙️ Noticias Internacional",
+    "icono": "🎙️",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/noticias-internacionales/CHdw.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=15_",
+    "activo": true
+  },
+    {
+    "nombre": "Telemundo 🇵🇷",
+    "grupo": "🌍 Puerto Rico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHtelemundopuertorico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=6_",
+    "activo": true
+  },
+     {
+    "nombre": "Telemundo 🇵🇷",
+    "grupo": "🌍 Puerto Rico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHtelemundopuertorico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=7_",
+    "activo": true
+  },
+    {
+    "nombre": "RCN 🇨🇴",
+    "grupo": "🌍 Colombia",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHrcncolombia.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=18_",
+    "activo": true
+  },
+    {
+    "nombre": "Antena 3 🇪🇸",
+    "grupo": "🌍 España",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHantena3.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=14_",
+    "activo": true
+  },
+    {
+    "nombre": "Canal 5 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHcanal5mexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=2_",
+    "activo": true
+  },
+    {
+    "nombre": "Canal 7 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHcanal7mexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=1_",
+    "activo": true
+  },
+    {
+    "nombre": "Imagen TV 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHimagentvmexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=25_",
+    "activo": true
+  },
+    {
+    "nombre": "Las Estrellas 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHlasestrellasmexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=13_",
+    "activo": true
+  },
+    {
+    "nombre": "Univision 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHunivisionmexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=9_",
+    "activo": true
+  },
+    {
+    "nombre": "Unicable 🇲🇽",
+    "grupo": "🌍 Mexico",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHunicablemexico.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=24_",
+    "activo": true
+  },
+    {
+    "nombre": "America 🇵🇪",
+    "grupo": "🌍 Peru",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHamericaperu.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=20_",
+    "activo": true
+  },
+    {
+    "nombre": "Latina 🇵🇪",
+    "grupo": "🌍 Peru",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHlatinaperu.png",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=19_",
+    "activo": true
+  },
+    {
+    "nombre": "ATV 🇵🇪",
+    "grupo": "🌍 Peru",
+    "icono": "🌍",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHatvhdperu",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=23_",
+    "activo": true
+  },
+    {
+    "nombre": "Playboy TV",
+    "grupo": "🔞 Adultos",
+    "icono": "🔞",
+    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/Adultos/CHplayboytv",
+    "url": "https://regionales.saohgdasregions.fun/tvporinternet3.php?stream=27_",
+    "activo": true
+  }
+]
