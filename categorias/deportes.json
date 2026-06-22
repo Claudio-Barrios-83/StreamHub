@@ -113,7 +113,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHdsports+.png",
     "url": "https://la14hd.com/vivo/canales.php?stream=dsportsplus",
-    "activo": true,
+    "activo": false,
     "etiqueta": "la14hd.com"
   },
   {
@@ -356,7 +356,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHespnpremium.png",
     "url": "https://la14hd.com/vivo/canal.php?stream=espnpremium",
-    "activo": true,
+    "activo": false,
     "etiqueta": "la14hd.com"
   },
   {
@@ -590,7 +590,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtycsports.png",
     "url": "https://la14hd.com/vivo/canales.php?stream=tycsports",
-    "activo": true,
+    "activo": false,
     "etiqueta": "la14hd.com"
   },
   {
