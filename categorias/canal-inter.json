@@ -32,7 +32,7 @@
     "icono": "🌍",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHlasestrellas.png",
     "url": "https://bestleague.top//tok.html?get=Q2FuYWxfZGVfbGFzX2VzdHJlbGxhcw==",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bestleague.top"
   },
   {
@@ -50,7 +50,7 @@
     "icono": "🌍",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHgenparaguay.png",
     "url": "https://bestleague.top//tok.html?get=R0VOX1RW",
-    "activo": true,
+    "activo": false,
     "etiqueta": "bestleague.top"
   },
   {
@@ -166,7 +166,7 @@
     "icono": "🌍",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHtvciudaduruguay.png",
     "url": "https://bestleague.top//tok.html?get=VGV2ZV9DaXVkYWQ=",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bestleague.top"
   }
 ]
