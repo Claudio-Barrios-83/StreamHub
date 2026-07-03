@@ -23,7 +23,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHdsports.png",
     "url": "https://bolaloca.my/player/3/94",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -59,7 +59,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHcanal5mexico.png",
     "url": "https://bolaloca.my/player/3/107",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -68,7 +68,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CHazteca7mexico.png",
     "url": "https://bolaloca.my/player/3/108",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -86,7 +86,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtudn.png",
     "url": "https://bolaloca.my/player/3/68",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -95,7 +95,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtudn.png",
     "url": "https://bolaloca.my/player/3/106",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -122,7 +122,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtycsports.png",
     "url": "https://bolaloca.my/player/3/77",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -149,7 +149,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHdsports.png",
     "url": "https://bolaloca.my/player/3/94",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -176,7 +176,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtudn.png",
     "url": "https://bolaloca.my/player/3/68",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
@@ -185,7 +185,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHtudn.png",
     "url": "https://bolaloca.my/player/3/106",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   },
   {
