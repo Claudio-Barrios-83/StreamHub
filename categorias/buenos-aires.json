@@ -158,7 +158,7 @@
     "icono": "🏙️",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/CHnettv.png",
     "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-    "activo": false,
+    "activo": true,
     "etiqueta": "M3U8"
   },
   {
