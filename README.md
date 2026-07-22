@@ -29,7 +29,7 @@ StreamHub/
 | validar-canales | Cada 12h | Verifica canales activos/inactivos |
 | actualizar-pluto | Cada 6h | Actualiza canales de Pluto TV |
 | generar-m3u | En cada push | Genera la lista M3U completa |
-| rotar-tokens | Cada 6h | Rota tokens de acceso externos |
+| ~~rotar-tokens~~ | — | Deshabilitado (listas M3U antiguas ya no existen) |
 
 ## 📊 Canales disponibles
 - ⚽ Deportes (90+)

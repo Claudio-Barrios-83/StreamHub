@@ -1,42 +1,14 @@
-import re
+"""
+OBSOLETO — No usar.
 
-source_file = "pluto_ar.m3u"
+Este script copiaba URLs de Pluto entre listas M3U personales
+(pluto_ar.m3u → principal.m3u, Alicia.m3u, etc.) que ya no están
+en el repositorio.
 
-# todos los m3u que quieres actualizar
-target_files = [
-    "principal.m3u",
-    "Alicia.m3u",
-    "juanpablo.m3u",
-    "mariano.m3u"
-]
+La actualización de Pluto TV la hace: python pluto_provider.py
+(workflow: actualizar-pluto).
+"""
+import sys
 
-channel_urls = {}
-
-# leer pluto_ar
-with open(source_file, "r", encoding="utf-8") as f:
-    for line in f:
-        if "pluto.tv" in line and "/channel/" in line:
-            m = re.search(r'/channel/([^/]+)/', line)
-            if m:
-                channel_id = m.group(1)
-                channel_urls[channel_id] = line.strip()
-
-# actualizar cada lista
-for target_file in target_files:
-
-    new_lines = []
-
-    with open(target_file, "r", encoding="utf-8") as f:
-        for line in f:
-            if "/channel/" in line:
-                m = re.search(r'/channel/([^/]+)/', line)
-                if m:
-                    cid = m.group(1)
-                    if cid in channel_urls:
-                        line = channel_urls[cid] + "\n"
-            new_lines.append(line)
-
-    with open(target_file, "w", encoding="utf-8") as f:
-        f.writelines(new_lines)
-
-    print(f"{target_file} actualizado")
+print("plutourlxurl.py está obsoleto. Usá pluto_provider.py / workflow actualizar-pluto.")
+sys.exit(0)

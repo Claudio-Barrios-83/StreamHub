@@ -367,10 +367,16 @@ function reproducir(canal, itemEl) {
 
 function mostrarAvisoExterno(canal) {
   const fuente = getFuenteNombre(canal.url);
-  el("extTitle").textContent = `${canal.nombre} — reproducción externa`;
-  el("extMsg").innerHTML = `
-    Este canal usa la fuente <strong>${fuente}</strong> que no puede embeberse directamente.<br><br>
-    Hacé clic en <strong>"Abrir canal en nueva pestaña"</strong> para verlo normalmente en el sitio original.`;
+  const pideExt = /extension\.php|\.mpd/i.test(canal.url) || fuente.includes('telegratuita');
+  el("extTitle").textContent = pideExt
+    ? `${canal.nombre} — requiere sitio externo`
+    : `${canal.nombre} — reproducción externa`;
+  el("extMsg").innerHTML = pideExt
+    ? `Esta fuente (<strong>${fuente}</strong>) pide una extensión del navegador o un reproductor DRM.<br><br>
+       <strong>No hace falta instalar nada en StreamHub.</strong> Probá otra entrada del mismo canal
+       (badge <em>HLS</em> o <em>iframe</em>) o abrila en una pestaña nueva.`
+    : `Este canal usa la fuente <strong>${fuente}</strong> que no puede embeberse directamente.<br><br>
+       Hacé clic en <strong>"Abrir canal en nueva pestaña"</strong> para verlo en el sitio original.`;
   extNotice.classList.add("show");
 }
 
