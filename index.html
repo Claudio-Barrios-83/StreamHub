@@ -213,10 +213,9 @@
 <script>
 const INDEX_URL = "https://raw.githubusercontent.com/Claudio-Barrios-83/StreamHub/refs/heads/main/listas/index.txt";
 
-// Fuentes que requieren extensión o abrir en pestaña
-// (no embebibles fácilmente en iframe)
-const FUENTES_EXTERNAS = ['telegratuita', 'la14hd', 'streamtp', 'saohgdasregions'];
-const FUENTES_IFRAME_OK = ['bestleague', 'bolaloca', 'bolaloca.my'];
+// Fuentes que piden extensión / no se pueden embeber (bestleague ahora exige extensión MPD)
+const FUENTES_EXTERNAS = ['telegratuita', 'la14hd', 'streamtp', 'saohgdasregions', 'bestleague'];
+const FUENTES_IFRAME_OK = ['bolaloca', 'bolaloca.my'];
 
 let canalesGlobal = [], currentCanal = null, hlsInstance = null, timerSearch = null;
 
@@ -359,7 +358,7 @@ function reproducir(canal, itemEl) {
     // Mostrar aviso en lugar de iframe roto
     mostrarAvisoExterno(canal);
   } else {
-    // iframe normal (bestleague, bolaloca, etc.)
+    // iframe solo para fuentes aún embebibles (ej. bolaloca)
     loadingOverlay.classList.add("show");
     playIframe(canal.url);
   }
@@ -367,20 +366,24 @@ function reproducir(canal, itemEl) {
 
 function mostrarAvisoExterno(canal) {
   const fuente = getFuenteNombre(canal.url);
-  const pideExt = /extension\.php|\.mpd/i.test(canal.url) || fuente.includes('telegratuita');
+  const pideExt = /bestleague|telegratuita|extension\.php|\.mpd/i.test(canal.url);
   el("extTitle").textContent = pideExt
-    ? `${canal.nombre} — requiere sitio externo`
+    ? `${canal.nombre} — fuente no usable aquí`
     : `${canal.nombre} — reproducción externa`;
   el("extMsg").innerHTML = pideExt
-    ? `Esta fuente (<strong>${fuente}</strong>) pide una extensión del navegador o un reproductor DRM.<br><br>
-       <strong>No hace falta instalar nada en StreamHub.</strong> Probá otra entrada del mismo canal
-       (badge <em>HLS</em> o <em>iframe</em>) o abrila en una pestaña nueva.`
+    ? `La fuente <strong>${fuente}</strong> ahora exige una extensión del navegador (MPD).<br><br>
+       <strong>No la instales por StreamHub.</strong> Cambiá a la lista
+       <em>CANALES HLS DIRECTOS</em> o <em>PLUTO TV</em>, o buscá otra entrada con badge <em>HLS</em>.`
     : `Este canal usa la fuente <strong>${fuente}</strong> que no puede embeberse directamente.<br><br>
        Hacé clic en <strong>"Abrir canal en nueva pestaña"</strong> para verlo en el sitio original.`;
+  // Ocultar "forzar iframe" cuando sabemos que solo muestra la extensión
+  const forceBtn = document.querySelector('#extNotice .btn-secondary');
+  if (forceBtn) forceBtn.style.display = pideExt ? 'none' : '';
   extNotice.classList.add("show");
 }
 
 function getFuenteNombre(url) {
+  if(url.includes('bestleague'))   return 'bestleague.top';
   if(url.includes('telegratuita')) return 'telegratuita.net';
   if(url.includes('la14hd'))       return 'la14hd.com';
   if(url.includes('streamtp'))     return 'streamtp';
