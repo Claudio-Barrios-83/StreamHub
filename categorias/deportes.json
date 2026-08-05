@@ -815,7 +815,7 @@
     "icono": "⚽",
     "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportsaustria1.png",
     "url": "https://bolaloca.my/player/3/111",
-    "activo": false,
+    "activo": true,
     "etiqueta": "bolaloca.my"
   }
 ]
