@@ -14,7 +14,7 @@
     "icono": "🏡",
     "logo": "https://bestleague.world/img/televida.webp",
     "url": "https://bestleague.world/canal/?id=TELEVIDAHLS",
-    "activo": true,
+    "activo": false,
     "etiqueta": "bestleague.top"
   }
 ]
