@@ -8,16 +8,16 @@ http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-name="América" tvg-logo="https://i.imgur.com/Jt7dOQm.png" tvg-id="AmericaTV.ar" tvg-chno="36.1" tvg-country="AR" group-title="Argentina",América
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 
-#EXTINF:-1 tvg-id="0919" tvg-logo="https://files.catbox.moe/ql9rbg.png" group-title="General/Abierta",Canal de la Ciudad
+#EXTINF:-1 tvg-id="0919" tvg-logo="https://files.catbox.moe/ql9rbg.png" Canal de la Ciudad
 https://g4.proy-hor.transport.edge-access.net/a06/ngrp:gcba_video4-100042_all/Playlist.m3u8?sense=true
 
-#EXTINF:-1 tvg-id="0939" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" group-title="General/Abierta",Net TV
+#EXTINF:-1 tvg-id="0939" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="0903" tvg-logo="https://files.catbox.moe/3yz8zs.png" group-title="General/Abierta",TV Publica
+#EXTINF:-1 tvg-id="0903" tvg-logo="https://files.catbox.moe/3yz8zs.png" TV Publica
 https://g5.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
-#EXTINF:-1 tvg-id="0640" tvg-logo="https://files.catbox.moe/gb2iih.png" group-title="General/Abierta",Unife TV
+#EXTINF:-1 tvg-id="0640" tvg-logo="https://files.catbox.moe/gb2iih.png" Unife TV
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8
 
 #EXTINF:-1 tvg-id="0222" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/A24_%282025%29.svg/2560px-A24_%282025%29.svg.png" group-title="Noticias",A24
