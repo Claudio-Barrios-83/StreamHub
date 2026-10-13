@@ -54,3 +54,88 @@ https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_a
 
 #EXTINF:-1 tvg-id="0937" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telemax_Argentina_%282018%29.png" group-title="Otros/Extras",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 1
+https://cdn.codenet.work/streamgo/stremgo123/4864.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 1
+https://zeustv269.cfd/ch.html?id=b1
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 1
+https://www.taraftarium24-244.top/matches?id=bein-sports-1
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 2
+https://cdn.codenet.work/streamgo/stremgo123/4865.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 3
+https://cdn.codenet.work/streamgo/stremgo123/4866.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Spor Kanalları",Bein Sports 4
+https://cdn.codenet.work/streamgo/stremgo123/4867.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Bs5 -B-
+https://corestream.ronaldovurdu.help//hls/bein-sports-5.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Bs5 -D-
+https://cdn.codenet.work/streamgo/stremgo123/4868.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/beinsports4.png" group-title="Spor Kanalları",beinsports4
+https://zeus324232.cfd/b4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/beinsports5.png" group-title="Spor Kanalları",beinsports5
+https://zeus324232.cfd/b5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/beinsportsmax1.png" group-title="Spor Kanalları",beinsportsmax1
+https://zeus324232.cfd/b1max/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/beinsportsmax2.png" group-title="Spor Kanalları",beinsportsmax2
+https://zeus324232.cfd/b2max/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/sporsmart.png" group-title="Spor Kanalları",sporsmart
+https://zeus324232.cfd/smart1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/sporsmart2.png" group-title="Spor Kanalları",sporsmart2
+https://zeus324232.cfd/smart2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tivibuspor.png" group-title="Spor Kanalları",tivibuspor
+https://zeus324232.cfd/tivibu/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tivibuspor1.png" group-title="Spor Kanalları",tivibuspor1
+https://zeus324232.cfd/tivibu1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tivibuspor2.png" group-title="Spor Kanalları",tivibuspor2
+https://raspy-forest-b1e4.aykara463.workers.dev/711.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tivibuspor3.png" group-title="Spor Kanalları",tivibuspor3
+https://zeus324232.cfd/tivibu3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tivibuspor4.png" group-title="Spor Kanalları",tivibuspor4
+https://raspy-forest-b1e4.aykara463.workers.dev/713.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/tv8.png" group-title="Spor Kanalları",tv8
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/cbcsport.png" group-title="Spor Kanalları",cbcsport
+https://andro.2385437.xyz/checklist/androstreamlivecbcs.m3u8
+
+#EXTINF:-1 tvg-logo="https://saraydorf.de/spor/img/logo/redbulltv.png" group-title="Spor Kanalları",redbulltv
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Trace_sports
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Dd_sports
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Billiards
+https://streams2.sofast.tv/WiseM3U8_18/sofast/cleanhls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Ace_tv
+https://streams2.sofast.tv/WiseM3U8_30/sofast/cleanhls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Hoop_tv
+https://streams2.sofast.tv/WiseM3U8_28/sofast/cleanhls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/BDUySDHFzY4JcRzQpLsIHiZKLvIEmVL5N30qc-DWwVhwN3dJqV0J4BKE6XH9EOw_ygQ" group-title="Yabancı",Homerun_tv
+https://streams2.sofast.tv/WiseM3U8_29/sofast/cleanhls/master.m3u8
+
